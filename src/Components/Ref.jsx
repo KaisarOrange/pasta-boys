@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../style";
+import { imagesAsset } from "../images";
 
 function Ref({ image, link, title }) {
   return (

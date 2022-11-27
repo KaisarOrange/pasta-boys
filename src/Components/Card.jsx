@@ -1,5 +1,6 @@
 import React from "react";
 import { FaStar, FaBitcoin } from "react-icons/fa";
+
 function Card({ image, name, price }) {
   return (
     <div className=" rounded-lg overflow-hidden w-64 h-80 bg-[#F5F5F5] drop-shadow-2xl">

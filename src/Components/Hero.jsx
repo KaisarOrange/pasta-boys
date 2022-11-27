@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../style";
+import { imagesAsset } from "../images";
 
 function Hero() {
   return (
@@ -19,7 +20,7 @@ function Hero() {
       <div>
         <button className="flex items-center gap-2 bg-[#A09E9E] px-4 py-2 mt-4 rounded-2xl">
           Order Now
-          <img className="w-8" src="WhatsApp.svg"></img>
+          <img className="w-8" src={imagesAsset.whatsapp}></img>
         </button>
       </div>
     </div>
