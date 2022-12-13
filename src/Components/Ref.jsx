@@ -10,7 +10,9 @@ function Ref({ image, link, title }) {
     '
         onClick={() => {
           window.location.href =
-            link === 1 ? 'https://wa.me/62895383780703' : 'https://youtube.com';
+            link === 1
+              ? 'https://www.instagram.com/pastaboys.id/'
+              : 'https://wa.me/62895383780703';
           return null;
         }}
       >
